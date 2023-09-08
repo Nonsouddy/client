@@ -1,9 +1,12 @@
+
 .main__header {
+    background: #fff;
+    color: black;
     width: 100vw;
     height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .main__header_container {
@@ -19,9 +22,13 @@
   margin-top: -3rem;
 }
 
+.main__header_left h1{
+    color: var(--primary-color);
+}
+
 .main__header_left h4 {
     margin-bottom: 1rem;
-    color: var(--color-secondary);
+    color: #B1D0FB;
     font-weight: 400;
 }
 
@@ -88,11 +95,16 @@
     grid-template-columns: 38% 50%;
     gap: 12%;
 }
+.values{
+    background: var(--color-gray-600);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .values__image {
     filter: saturate(0.25);
     transition: var(--transition);
-    /* margin-top: 8rem; */
+    margin-top: 8rem;
 }
 
 .values__image:hover {
@@ -133,6 +145,11 @@
    gap: 1.5rem 5rem;
    align-items: flex-start;
 }
+.faqs{
+    background: var(--color-gray-600);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .faq {
     background: var(--color-gray-500);
@@ -168,7 +185,11 @@
 
 
 /* **************** TESTIMONIALS **************** */
-
+.testimonials__container{
+    background: var(--color-gray-600);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .testimonial {
     width: 60%;
     margin-inline: auto;
@@ -231,6 +252,63 @@
     width: 3rem;
     height: 3rem;
 }
+
+
+
+/* Start of privacy */
+.pri_title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 2rem;
+}
+.pri_row{
+    margin: 2rem;
+    font-size: large;;
+    font-weight:light;
+    row-gap: 2rem;
+}
+.intro{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight:bold;
+
+}
+/* end of privacy */
+
+/* Start of T & C */
+.terms{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.terms_body{
+    margin-left: 2rem;
+    /* justify-content: space-between; */
+}
+.terms_top{
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+.terms_intro,
+.term_dis,
+.terms_pay,
+.terms_whole{
+    margin-bottom: 2rem;
+    font-size: medium;
+    font-weight: light;
+}
+.terms_intro h3,
+.term_dis h3,
+.terms_pay h3,
+.terms_whole h3{
+font-weight: bolder;
+}
+/* end of T & C */
 
 
 
@@ -316,6 +394,7 @@ footer {
  .main__header {
     height: fit-content;
     padding: 12rem 0;
+    margin-top: auto;
  }
 
  .main__header_container {
@@ -372,14 +451,19 @@ footer {
 /* MEDIA QUERIES (small screens )*/
 @media screen and (max-width: 600px) {
  /* MAIN HEADER */
+ 
  .main__header {
+    background: #B1D0FB;
+    color: #fff;
     margin-top: 0;
-    padding: 12rem 0 0;
+    padding-top: 5rem 0 0;
     height: 100vh;
+
  }
 
  .main__header_image {
     display: none;
+    /* margin-top: 2rem; */
  }
 
  .main__header_container {
@@ -387,6 +471,17 @@ footer {
  }
 
  /* PROGRAMS */
+ 
+
+
+ .program,
+ .programs{
+    background: #ECF3F2;
+    color: var(--color-gray-600);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
  .programs__wrapper {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -400,14 +495,23 @@ footer {
 
 
  /* VALUES */
+
+ .values{
+    background: #B1D0FB;
+    padding-bottom: 20px;
+ }
  .values__wrapper {
     grid-template-columns: 1fr;
     gap: 3rem;
  }
 
+
  .card.values__value {
     width: 84%;
     margin-inline: auto;
+
+
+
  }
 
  /* FAQS */
@@ -415,8 +519,17 @@ footer {
     gap: 1rem;
     margin-top: 3rem;
  }
+ .faqs{
+    background: #B1D0FB;
+    
+ }
 
  /* TESTIMONIALS */
+ .testimonials__container{
+    background: #B1D0FB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
  .testimonial {
     width: 100%;
  }

@@ -35,7 +35,7 @@ const footer = () => {
             </div>
         </article>
         <article>
-            <h4>permalinks</h4>
+            <h4>Permalinks</h4>
             <Link to='/about'>About</Link>
             <Link to='/tuition'>Tuition</Link>
             <Link to='/tutors'>Tutors</Link>
@@ -57,7 +57,8 @@ const footer = () => {
             <h4>Get In Touch</h4>
             <Link to='/contact'>Contact Us</Link>
             <Link to='/blogs'>Blogs</Link>
-            <Link to='/tuition'>Privacy And Policy</Link>
+            <Link to='/privacy and policy'>Privacy And Policy</Link>
+            <Link to='/Terms'>Terms And Condition</Link>
             <Link to='/faqs'>FAQS</Link>
         </article>
       </div>

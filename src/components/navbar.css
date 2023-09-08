@@ -60,6 +60,10 @@ nav {
 /* MEDIA QUERY FOR MEDIUM AND SMALL SCREEN */
 
 @media screen and (max-width: 1024px) {
+nav {
+    background: white;
+}
+
 .nav__toggle-btn {
     display: inline-block; 
     background: transparent;
@@ -69,7 +73,7 @@ nav {
 
 .nav__toggle-btn svg {
     /* color: var(--color-gray-100); */
-    color: red;
+    color: black;
 }
 
 .nav__links {

@@ -1,0 +1,17 @@
+.program {
+    background: var(--color-gray-600);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    .program,
+    .programs{
+        background: #ECF3F2;
+        color: var(--color-gray-600);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+}

@@ -23,6 +23,23 @@
     border-color: var(--color-gray-100);
 }
 
+.google__map {
+    margin-top: 4rem;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.google__map iframe {
+    left: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 
 /* MEDIA QUERRY (small screen) */
 @media screen and (max-width:600px) {

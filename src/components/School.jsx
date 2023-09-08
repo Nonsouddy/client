@@ -1,21 +1,25 @@
-import { FaCrown } from "react-icons/fa";
+import { BiSolidSchool } from "react-icons/bi";
 import SectionHead from "./SectionHead";
-import {programs} from '../data'
+import {school} from '../data'
 import Card from "../UI/Card";
 import {Link} from 'react-router-dom';
 import {AiFillCaretRight} from 'react-icons/ai';
+import './school.css'
 
-const Programs = () => {
+const School = () => {
   return (
    <section className="programs">
       <div className="container programs__container">
-       <SectionHead icon={<FaCrown/>} title='Programs'/>
-      <div className="programs__wrapper">
+       <SectionHead icon={<BiSolidSchool/>} title='SCHOOLS'/>
+      <div className="program__wrapper">
          {
-            programs.map(({id, icon, title, info, path}) => {
+            school.map(({id, avatar, title, info, path}) => {
                 return (
                     <Card className='programs__program' key={id}>
-                        <span>{icon}</span>
+                        <div className="school__avatar">
+                            <img src={avatar} alt="img" />
+                        </div>
+                        {/* <span>{avatar}</span> */}
                         <h4>{title}</h4>
                         <small>{info}</small>
                         <Link to={path} className="btn sm">Learn More <AiFillCaretRight/></Link>
@@ -29,4 +33,4 @@ const Programs = () => {
   );
 };
 
-export default Programs;
+export default School;

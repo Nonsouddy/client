@@ -1,5 +1,6 @@
 import Header from '../../components/Header';
 import HeaderImage from '../../images/galleryheader.jpg';
+import GoToTop from '../../components/GoToTop';
 import './gallery.css';
 
 
@@ -16,8 +17,7 @@ const Gallery = () => {
   return (
     <>
     <Header title='Our Gallery' image={HeaderImage}>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-       Voluptates, in.
+      Take a glance at our student activities.
     </Header>
     <section className="gallery">
       <div className="container gallery__container">
@@ -30,6 +30,7 @@ const Gallery = () => {
         }
       </div>
     </section>
+    <GoToTop/>
     </>
   )
 };

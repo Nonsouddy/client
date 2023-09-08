@@ -9,6 +9,8 @@ import Tuition from './pages/tuition/Tuition';
 import Gallery from './pages/gallery/Gallery';
 import NotFound from './pages/notFound/NotFound';
 import Navbar from './components/Navbar';
+import Privacy from './components/Privacy  Policy';
+import Terms from './components/Terms and Conditions';
 import Footer from './components/footer';
 
 
@@ -24,6 +26,8 @@ const App = () => {
         <Route path='courses' element={<Courses/>}/>
         <Route path='faqs' element={<Faqs/>}/>
         <Route path='tuition' element={<Tuition/>}/>
+        <Route path='privacy and policy' element={<Privacy/>}/>
+        <Route path='Terms' element={<Terms/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>

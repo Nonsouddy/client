@@ -2,6 +2,7 @@ import SectionHead from './SectionHead';
 import { FaQuestion } from 'react-icons/fa';
 import {faqs} from '../data';
 import FAQ from './FAQ';
+import GoToTop from './GoToTop';
 
 
 const FAQs = () => {
@@ -17,6 +18,7 @@ const FAQs = () => {
             }
         </div>
       </div>
+      <GoToTop/>
     </section>
   )
 }

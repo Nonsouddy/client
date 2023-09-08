@@ -1,3 +1,4 @@
+
 import {SiOpenaigym} from 'react-icons/si'
 
 
@@ -39,35 +40,152 @@ export const links = [
 
 
 
-export const programs = [
+export const schools = [
     {
         id: 1,
         icon: <SiOpenaigym/>,
-        title: "Program One",
+        title: "WEBSITE DEVELOPMENT",
+        info: "Start a tech career in Website Development today!",
+        path: "/programs/111"
+    },
+    {
+        id: 2,
+        icon: <SiOpenaigym/>,
+        title: "SOFTWARE ENGINEERING",
+        info: "Start a tech career in Software Engineering today!",
+        path: "/programs/222"
+    },
+    {
+        id: 3,
+        icon: <SiOpenaigym/>,
+        title: "DATA SCIENCE & ANALYTICS",
+        info: "Start a tech career in Data Science and Analytics today!",
+        path: "/programs/333"
+    },
+    {
+        id: 4,
+        icon: <SiOpenaigym/>,
+        title: "SECURITY ADMINISTRATION",
+        info: "Start a tech career in Security Administration today!",
+        path: "/programs/444"
+    }
+]
+export const school = [
+    {
+        id: 1,
+        avatar: require("./images/trainer6.jpg"),
+        title: "Physical Class",
+        info: "Physical interactions with an instructor and peers in a Conducive and serene environment.",
+        path: "/programs/111"
+    },
+    {
+        id: 2,
+        avatar: require("./images/onlineclass.jpg"),
+        title: "Online Computer School",
+        info: "From anywhere you can access our online tutored training classes.",
+        path: "/programs/222"
+    },
+    {
+        id: 3,
+        avatar: require("./images/kidsonline.jpg"),
+        title: "Kids Online  School",
+        info: "With the Kids Online School,Students ages 5-18 can learn to code, design websites, design video games e.t.c",
+        path: "/programs/333"
+    }
+    // {
+    //     id: 4,
+    //     icon: <SiOpenaigym/>,
+    //     title: "Program Four",
+    //     info: "This is the day that the lord has made. We will rejoice!",
+    //     path: "/programs/444"
+    // }
+]
+
+export const courses = [
+    {
+        id: 1,
+        icon: <SiOpenaigym/>,
+        title: "Programming",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/111"
     },
     {
         id: 2,
         icon: <SiOpenaigym/>,
-        title: "Program Two",
+        title: "ICT Fundamentals",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/222"
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
-        title: "Program Three",
+        title: "Web Development",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "Program Four",
+        title: "Networking",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"
-    }
+    },
+    {
+        id: 5,
+        icon: <SiOpenaigym/>,
+        title: "Mobile App Development",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 6,
+        icon: <SiOpenaigym/>,
+        title: "Database Management ",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 7,
+        icon: <SiOpenaigym/>,
+        title: "Data Science And Data Analytics",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 8,
+        icon: <SiOpenaigym/>,
+        title: "Software Engineering",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 9,
+        icon: <SiOpenaigym/>,
+        title: "Security Administration",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 10,
+        icon: <SiOpenaigym/>,
+        title: "Game Development",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 11,
+        icon: <SiOpenaigym/>,
+        title: "UI/UX",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
+    {
+        id: 12,
+        icon: <SiOpenaigym/>,
+        title: "Digital Marketing",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/444"
+    },
 ]
 
 
@@ -81,26 +199,26 @@ export const values = [
     {
         id: 1,
         icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Hands-on training",
+        desc: "We have professionally trained and experienced faculty/instructors. We offer 100% practical and hands-on training."
     },
     {
         id: 2,
         icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Learning Environment",
+        desc: "We have a secured,serene and conducive environment for learning, we offer both offline(cllassrom) and online trainings."
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Training Approach",
+        desc: "Our trainings are assignments, projects and case scenarios based to aid our students’ learning and understanding."
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Flexible Training",
+        desc: "We Offer Offline(Classroom Training), Online Live Tutored Training, One-On-One (Executive Training),Corporate Training and Human Capacity Development"
     }
 ]
 
@@ -185,38 +303,38 @@ export const faqs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        name: "Ngene Collins",
+        quote: "The training is very good, it has opened my mind to a lot in the industry.",
         job: "Student",
-        avatar: require("./images/avatar1.jpg")
+        avatar: require("./images/maleavatar.png")
     },
     {
         id: 2,
-        name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Egineer",
-        avatar: require("./images/avatar2.jpg")
+        name: "Harry Patrick",
+        quote: "It has been an educative and informative training program where i have been able to learn a lot.",
+        job: "Student",
+        avatar: require("./images/maleavatar.png")
     },
     {
         id: 3,
-        name: "Edem Quist",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "University Lecturer",
-        avatar: require("./images/avatar3.jpg")
+        name: "Favour Marcel",
+        quote: "Very interesting, i will again recommend Torbita for more training in my organization.",
+        job: "Worker",
+        avatar: require("./images/femaleavatar.jpeg")
     },
     {
         id: 4,
-        name: "Grace Lavoe",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
-        avatar: require("./images/avatar4.jpg")
+        name: "Perpetual Matthew",
+        quote: "Satisfactory, i will definitely have more training session from this company.",
+        job: "Corporate Student",
+        avatar: require("./images/femaleavatar.jpeg")
     },
     {
         id: 5,
-        name: "Nana Yaa Dankwa",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Pharmacist",
-        avatar: require("./images/avatar5.jpg")
+        name: "Marcel Uche",
+        quote: "The training has improved my knowledge, i believe this will make my work more effective.",
+        job: "Designer",
+        avatar: require("./images/maleavatar.png")
     }
 ]
 

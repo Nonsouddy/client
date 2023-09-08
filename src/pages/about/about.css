@@ -4,6 +4,16 @@
     transform: skew(15deg);
     transition: var(--transition);
 }
+.about__story,
+.about__vision,
+.about__mission{
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+.about__section-image:nth-child(1) {
+    transform: rotate(20deg);
+}
 
 .about__section-image:nth-child(2) {
     transform: skew(-15deg);
@@ -40,6 +50,8 @@
 
 /* MEDIA QUERRIES (medium screens) */
 @media screen and (max-width:1024px) {
+
+    
     .about__section-image {
         width: 60%;
     }
@@ -63,6 +75,14 @@
 
 /* MEDIA QUERRIES (small screens) */
 @media screen and (max-width:600px) {
+
+
+.about__story,
+.about__vision,
+.about__mission{
+    color: #fff;
+}
+
    .about__section-image {
     width: 80%;
     margin-inline: auto;

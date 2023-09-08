@@ -10,7 +10,9 @@ const MainHeader = () => {
           <h4>Learn A Tech Skill Today</h4>
           <h1>Welcome To Torbita Computer Training School</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptate quod incidunt totam corrupti. Est!
+          Torbita™ Computer Training School Abuja is a one stop
+             computer training center for any kind of computer
+              trainings. <p><h4>Get started today!</h4></p>
           </p>
           <Link to='/courses' className='btn lg'>Apply Now</Link>
         </div>

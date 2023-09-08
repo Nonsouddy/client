@@ -3,14 +3,16 @@ import HeaderImage from '../../images/aboutus.jpg';
 import StoryImage from '../../images/storyimage.jpg';
 import VisionImage from '../../images/visionimage.jpg';
 import MissionImage from '../../images/missionimage.jpg';
+import GoToTop from '../../components/GoToTop';
 import './about.css';
 
 const About = () => {
   return (
     <>
       <Header title="About Us" image={HeaderImage}>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-         Repellendus, excepturi quod blanditiis nostrum aspernatur animi!
+      Torbita™ Computer Training School Abuja is a one stop
+             computer training center for any kind of computer
+              trainings!
       </Header>
 
       <section className="about__story">
@@ -19,21 +21,26 @@ const About = () => {
             <img src={StoryImage} alt="story img" />
           </div>
           <div className="about__section-content">
-            <h1>Our Story</h1>
+            {/* <h2>Our Story</h2> */}
+            <h1>Torbita™ Computer Training School Abuja</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Tenetur, voluptatem adipisci iusto eum ea sint praesentium odio autem, 
-              minima aut minus eaque at, enim beatae!
+            Torbita™ Computer Training School Abuja is a one stop
+             computer training center for any kind of computer
+              trainings like physical (On-Site) Computer Training,
+               Online Computer Training, Kids Coding and Programming
+                (physical and online) training, after school computer 
+                training for school Children, One-on-One Computer Training,
+                 VIP/Executive computer Training, Corporate Training and Human
+                  Capital Development.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Delectus ea maiores quidem excepturi eum, 
-              optio aperiam? Ut, perspiciatis modi. Doloribus reprehenderit
+            Our computer trainings range from beginners’ computer courses to 
+            intermediate computer courses to professional computer courses.
+            We conduct 100% practical and hands-on training (physical and online)
+             in a conducive, secured and serene environment for learning with professional
+              and decent Instructors who are diligent in the discharge of their duties.
             </p>
-            <p>
-            pariatur impedit sed! Minus itaque porro accusamus, dolores alias fugit recusandae,
-            laudantium maiores omnis temporibus enim.
-            </p>
+            
           </div>
         </div>
       </section>
@@ -83,6 +90,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <GoToTop/>
     </>
   )
 };
